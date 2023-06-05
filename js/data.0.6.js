@@ -39,10 +39,10 @@ let data = {
         ],
         list: [],
         steps: [
-            "Know the <a href='#must-knows' subject='must-knows'>must-knows</a><img src='images/important-icon.png' class='inline-icon'> of DeFi",
+            "Know the <a href='#must-knows' subject='must-knows'>must-knows</a><img src='images/important-icon.png' class='inline-icon'> of transacting on the Ethereum blockchain",
             "Set up a <a href='#get-wallet' subject='get-wallet'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet",
-            "Buy $20 of USDC on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>",
-            "Send the USDC to your MetaMask over <a href='#try-polygon' subject='try-polygon'>Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>",
+            "Buy $15-$20 of ApeCoin on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'> or <a href='#get-binance' subject='get-binance'>Binance</a><img src='images/binance-logo.svg' class='inline-icon'>",
+            "Send the ApeCoin to your MetaMask over <a href='#try-polygon' subject='try-polygon'>Ethereum</a><img src='images/polygon-logo.png' class='inline-icon'>",
             "Deposit $5 USDC into <a href='#save-with-aave' subject='save-with-aave'>Aave</a><img src='images/aave-logo.png' class='inline-icon'> to earn interest",
             "Track deposit using <a href='#track-portfolio' subject='track-portfolio'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
         ]
@@ -65,18 +65,18 @@ let data = {
             "Now let's <a href='#first-thing' subject='first-thing'>try something</a><img src='images/first-logo.png' class='inline-icon'>"
         ]
     },
-    'what-is-defi': {
-        title: 'What is DeFi',
+    'what-is-apecoindoa': {
+        title: 'What is ApeCoin DAO',
         icon: 'images/question-icon.png',
         descriptions: [],
         steps: [],
         list: [
-            "Short for Decentralized Finance",
-            "Financial products and services built as immutable verifiable code",
-            "Most of DeFi is built on the Ethereum blockchain",
-            "No intermediaries or middle-men",
-            "Available to anyone in the world with an internet connection",
-            "No permission necessary to use. 24/7 365.",
+            "DAO is short for Decentralized Autonomous Organisation",
+            "ApeCoin DAO is an organisation governed by smart contracts and runs on a blockchain network.",
+            "ApeCoin DOA members can propose and vote on proposals using the ApeCoin token.",
+            "ApeCoin DAO facilitate decentralised governance, funding, and coordination.",
+            "ApeCoin DAO is open to anyone in the world and One ApeCoin.",
+            "Only one Apecoin is needed to join the DAO and begin participating.",
             "There are some things you <a href='#must-knows' subject='must-knows'>should know</a> before starting"
         ]
     },
@@ -94,11 +94,10 @@ let data = {
             "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask extension</a> in Chrome browser",
             "Choose restore wallet from seed phrase (the one you wrote down)",
             'To get your public address, touch/click the "0x000...0000" in MetaMask',
-            "Go to <a href='https://etherscan.io/' target='_blank'>etherscan.io</a> or <a href='https://polygonscan.com/' target='_blank'>polygonscan.com</a> and paste in address to see it on a block explorer",
+            "Go to <a href='https://etherscan.io/' target='_blank'>etherscan.io</a> and paste in address to see it on a block explorer",
             "MetaMask is connected to Ethereum by default",
-            "To add new networks, head to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'> and choose other networks in top right",
-            "Once a network is added, you can toggle between networks in MetaMask dropdown",
-            "Next let's <a href='#get-coinbase' subject='get-coinbase'>get some USDC on Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>"
+            "Next let's get some ApeCoin on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>\
+            or <a href='#get-binance' subject='get-binance'>Binance</a><img src='images/binance-logo.svg' class='inline-icon'>"
         ],
         list: []
     },
@@ -111,28 +110,28 @@ let data = {
         steps: [
             "Sign up for a <a href='https://www.coinbase.com/join/davis_95' target='_blank'>Coinbase.com</a><img src='images/coinbase-logo.png' class='inline-icon'> account",
             "Connect your checking account",
-            "<a href='https://www.coinbase.com/price/usdc' target='_blank'>Buy some USDC</a> (maybe $20 worth). USDC is a stablecoin, redeemable 1:1 for dollars.",
-            "Next let's send <a href='#try-polygon' subject='try-polygon'>USDC to the Polygon network</a><img src='images/polygon-logo.png' class='inline-icon'>"
+            "<a href='https://www.coinbase.com/price/apecoin' target='_blank'>Buy some ApeCoin</a> (maybe $20 worth).",
+            "Next let's send <a href='#try-polygon' subject='try-polygon'>ApeCoin to the Ethereum network</a><img src='images/ethereum-logo.png' class='inline-icon'>"
         ],
         list: []
     },
-    'track-portfolio': {
-        title: 'Track your portfolio',
-        icon: 'images/zapper-logo.png',
+    'get-binance': {
+        title: 'Get Binance',
+        icon: 'images/binance-logo.svg',
         descriptions: [
-            "Zapper.fi is the most popular way to track your DeFi portfolio."
+            "The largest cryptocurrency exchange in the world"
         ],
         steps: [
-            "Go to <a href='https://zapper.fi/' target='_blank'>zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>",
-            "Click Connect Wallet and choose MetaMask",
-            "Zapper.fi will read in all your balances and positions from the blockchain",
-            "You can even perform some DeFi transactions all within their app"
+            "Sign up for a <a href='https://accounts.binance.com/register?ref=128069471' target='_blank'>Binance.com</a><img src='images/binance-logo.svg' class='inline-icon'> account",
+            "Connect your checking account if the platform supports your local bank. P2P trading is also available on Binance for you to buy stable coins",
+            "<a href='https://www.binance.com/en/price/apecoin-ape' target='_blank'>Buy some ApeCoin</a> (maybe $15-$20 worth).",
+            "Next let's send <a href='#try-polygon' subject='try-polygon'>ApeCoin to the Ethereum network</a><img src='images/ethereum-logo.png' class='inline-icon'>"
         ],
         list: []
     },
     'try-polygon': {
         title: 'Try Polygon',
-        icon: 'images/polygon-logo.png',
+        icon: 'images/ethereum-logo.png',
         descriptions: [
             "Polygon is cheaper than Ethereum to use, making it great to try things.",
             "Polygon builds scaling solutions on and around Ethereum."
