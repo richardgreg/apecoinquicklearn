@@ -31,7 +31,7 @@ let data = {
         ]
     },
     'first-thing': {
-        title: 'First thing to try',
+        title: 'First thing to do',
         icon: 'images/first-logo.png',
         descriptions: [
             "Starting from step 0?",
@@ -39,12 +39,13 @@ let data = {
         ],
         list: [],
         steps: [
+            "Get to know about the <a href='#what-is-apecoindoa' subject='what-is-apecoindoa'>ApeCoin DAO</a><img src='images/apecoin-logo.svg' class='inline-icon'> and how you can be a member",
             "Know the <a href='#must-knows' subject='must-knows'>must-knows</a><img src='images/important-icon.png' class='inline-icon'> of transacting on the Ethereum blockchain",
             "Set up a <a href='#get-wallet' subject='get-wallet'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet",
-            "Buy $15-$20 of ApeCoin on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'> or <a href='#get-binance' subject='get-binance'>Binance</a><img src='images/binance-logo.svg' class='inline-icon'>",
-            "Send the ApeCoin to your MetaMask over <a href='#try-polygon' subject='try-polygon'>Ethereum</a><img src='images/polygon-logo.png' class='inline-icon'>",
-            "Deposit $5 USDC into <a href='#save-with-aave' subject='save-with-aave'>Aave</a><img src='images/aave-logo.png' class='inline-icon'> to earn interest",
-            "Track deposit using <a href='#track-portfolio' subject='track-portfolio'>Zapper.fi</a><img src='images/zapper-logo.png' class='inline-icon'>"
+            "Buy $15-$20 worth of ApeCoin on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'> or <a href='#get-binance' subject='get-binance'>Binance</a><img src='images/binance-logo.svg' class='inline-icon'>",
+            "Send the ApeCoin to your MetaMask over <a href='#try-ethereum' subject='try-ethereum'>Ethereum</a><img src='images/ethereum-logo.png' class='inline-icon'>",
+            "Join the ApeCoin token gated <a href='https://forum.apecoin.com/invites/fEdGfZyTPi' target='_blank'>forum</a>",
+            "Join the ApeCoin token gated <a href = 'https://discord.gg/apecoindao' target = '_blank' > discord</a> "
         ]
     },
     'must-knows': {
@@ -55,29 +56,29 @@ let data = {
         ],
         steps: [],
         list: [
-            "Always try things with small amounts of money before using larger amounts",
             "You need ether (ETH) to pay for gas to transact on the Ethereum network where ApeCoin leaves",
             "Be aware that transactions on Ethereum can be expensive when the network is busy",
             "Never share your seed phrase or store them on your phone or computer. Write it down on paper!",
             "Only send ether to an Ethereum address, bitcoin to a Bitcoin addresses, etc",
             "However, you can send and receive ERC20 tokens with an Ethereum address since they are programmed on the Ethereum network",
             "Ether (ETH) is the asset and Ethereum is the network",
-            "Now let's <a href='#first-thing' subject='first-thing'>try something</a><img src='images/first-logo.png' class='inline-icon'>"
+            "Now let's walkthrough setting up a <a href='#get-wallet' subject='get-wallet'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet"
         ]
     },
     'what-is-apecoindoa': {
         title: 'What is ApeCoin DAO',
-        icon: 'images/question-icon.png',
+        icon: 'images/apecoin-logo.svg',
         descriptions: [],
         steps: [],
         list: [
-            "DAO is short for Decentralized Autonomous Organisation",
-            "ApeCoin DAO is an organisation governed by smart contracts and runs on a blockchain network.",
+            "DAO is short for Decentralized Autonomous Organisation.",
+            "ApeCoin DAO is an organisation that runs on a blockchain network",
+            "ApeCoin DAO is governed by holders of ApeCoin.",
+            "Only one Apecoin is needed to join the DAO and begin participating.",
             "ApeCoin DOA members can propose and vote on proposals using the ApeCoin token.",
             "ApeCoin DAO facilitate decentralised governance, funding, and coordination.",
-            "ApeCoin DAO is open to anyone in the world and One ApeCoin.",
-            "Only one Apecoin is needed to join the DAO and begin participating.",
-            "There are some things you <a href='#must-knows' subject='must-knows'>should know</a> before starting"
+            "ApeCoin DAO is open to everyone around the world.",
+            "There are some things you <a href='#must-knows' subject='must-knows'>should know</a><img src='images/important-icon.png' class='inline-icon'> regarding using the blockchain"
         ]
     },
     'get-wallet': {
@@ -111,7 +112,7 @@ let data = {
             "Sign up for a <a href='https://www.coinbase.com/join/davis_95' target='_blank'>Coinbase.com</a><img src='images/coinbase-logo.png' class='inline-icon'> account",
             "Connect your checking account",
             "<a href='https://www.coinbase.com/price/apecoin' target='_blank'>Buy some ApeCoin</a> (maybe $20 worth).",
-            "Next let's send <a href='#try-polygon' subject='try-polygon'>ApeCoin to the Ethereum network</a><img src='images/ethereum-logo.png' class='inline-icon'>"
+            "Next let's send <a href='#try-ethereum' subject='try-ethereum'>ApeCoin to the Ethereum network</a><img src='images/ethereum-logo.png' class='inline-icon'>"
         ],
         list: []
     },
@@ -125,7 +126,7 @@ let data = {
             "Sign up for a <a href='https://accounts.binance.com/register?ref=128069471' target='_blank'>Binance.com</a><img src='images/binance-logo.svg' class='inline-icon'> account",
             "Connect your checking account if the platform supports your local bank. P2P trading is also available on Binance for you to buy stable coins",
             "<a href='https://www.binance.com/en/price/apecoin-ape' target='_blank'>Buy some ApeCoin</a> (maybe $15-$20 worth).",
-            "Next let's send <a href='#try-polygon' subject='try-polygon'>ApeCoin to the Ethereum network</a><img src='images/ethereum-logo.png' class='inline-icon'>"
+            "Next let's send <a href='#try-ethereum' subject='try-ethereum'>ApeCoin to the Ethereum network</a><img src='images/ethereum-logo.png' class='inline-icon'>"
         ],
         list: []
     },
@@ -381,6 +382,24 @@ let data = {
             "Paste in your ETH wallet address (may have to copy it from your MetaMask on your computer, then email it to your phone) and give it a nickname",
             "Crypto.com may prompt to enable 2FA authentication. Highly recommended you do this.",
             "After whitelisting this OP address, click to Withdraw ETH, enter amount, then click Withdraw, Confirm."
+        ],
+        list: []
+    },
+    'try-ethereum': {
+        title: 'Try Ethereum',
+        icon: 'images/ethereum-logo.png',
+        descriptions: [
+            "Ethereum is a decentralized blockchain with smart contract functionality.",
+            "Ether is the native cryptocurrency of the platform."
+        ],
+        steps: [
+            "Withdraw the ApeCoin to your 0x00..00 address and <i>choose to use the Ethereum network</i>",
+            "In your metamask extension, click on import token, search for ApeCoin, select it and import it to be able to view it after the transaction is completed",
+            "You can also view your address on <a href='https://etherscan.io/' target='_blank'>etherscan.io</a><img src='images/etherscan-logo.svg' class='inline-icon'> to confirm it worked",
+            "You are now able to sign up to the ApeCoin token gated communities: ApeCoin DAO " +
+            "<a href='https://forum.apecoin.com/invites/fEdGfZyTPi' target='_blank'>forum</a><img src='images/apecoin-logo.svg' class='inline-icon'> and " +
+            "<a href='https://discord.gg/apecoindao' target='_blank'>discord</a><img src='images/discord-icon.svg' class='inline-icon'>"
+
         ],
         list: []
     },
