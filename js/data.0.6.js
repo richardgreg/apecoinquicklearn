@@ -1,9 +1,9 @@
 let data = {
     'hello': {
         title: 'Hello',
-        icon: 'images/welcome-logo.png',
+        icon: 'images/apecoin-quick-learn-logo.png',
         descriptions: [
-            "This is Fast ApeCoin Tutorial.",
+            "This is ApeCoin Quick Learn.",
             "ApeCoin is an ERC-20 governance and utility token used within the APE Ecosystem.",
             "Easy. Straight to the point. Step-by-step.",
             "Questions? Reach out on <a href='https://twitter.com/gregcardo' target='_blank'>Twitter</a><img src='images/twitter-logo.png' class='inline-icon'>",
