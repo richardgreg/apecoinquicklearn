@@ -58,13 +58,13 @@ let data = {
         ],
         steps: [],
         list: [
-            "You need ether (ETH) to pay for gas to transact on the Ethereum network where ApeCoin leaves",
-            "Be aware that transactions on Ethereum can be expensive when the network is busy",
+            "You need ether (ETH) to pay for gas to transact on the Ethereum network where ApeCoin leaves.",
+            "Be aware that transactions on Ethereum can be expensive when the network is busy.",
             "Never share your seed phrase or store them on your phone or computer. Write it down on paper!",
-            "Only send ether to an Ethereum address, bitcoin to a Bitcoin addresses, etc",
-            "However, you can send and receive ERC20 tokens with an Ethereum address since they are programmed on the Ethereum network",
-            "Ether (ETH) is the asset and Ethereum is the network",
-            "Now let's walkthrough setting up a <a href='#get-wallet' subject='get-wallet'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet"
+            "Only send ether to an Ethereum address, bitcoin to a Bitcoin addresses, etc.",
+            "However, you can send and receive ERC20 tokens with an Ethereum address since they are programmed on the Ethereum network.",
+            "Ether (ETH) is the asset and Ethereum is the network.",
+            "Now let's walkthrough setting up a <a href='#get-wallet' subject='get-wallet'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> wallet."
         ]
     },
     'what-is-apecoindoa': {
@@ -74,13 +74,13 @@ let data = {
         steps: [],
         list: [
             "DAO is short for Decentralized Autonomous Organisation.",
-            "ApeCoin DAO is an organisation that runs on a blockchain network",
+            "ApeCoin DAO is an organisation that runs on a blockchain network.",
             "ApeCoin DAO is governed by holders of ApeCoin.",
             "Only one Apecoin is needed to join the DAO and begin participating.",
             "ApeCoin DOA members can propose and vote on proposals using the ApeCoin token.",
             "ApeCoin DAO facilitate decentralised governance, funding, and coordination.",
             "ApeCoin DAO is open to everyone around the world.",
-            "There are some things you <a href='#must-knows' subject='must-knows'>should know</a><img src='images/important-icon.png' class='inline-icon'> regarding using the blockchain"
+            "There are some things you <a href='#must-knows' subject='must-knows'>should know</a><img src='images/important-icon.png' class='inline-icon'> regarding using the blockchain."
         ]
     },
     'get-wallet': {
@@ -91,14 +91,14 @@ let data = {
             "You'll want the app on your phone and the browser extension."
         ],
         steps: [
-            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> on your phone",
-            "Choose Create a new wallet",
-            "Follow on-screen instructions, <i>write down seed phrase on paper</i>",
-            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask extension</a> in Chrome browser",
-            "Choose restore wallet from seed phrase (the one you wrote down)",
-            'To get your public address, touch/click the "0x000...0000" in MetaMask',
-            "Go to <a href='https://etherscan.io/' target='_blank'>etherscan.io</a> and paste in address to see it on a block explorer",
-            "MetaMask is connected to Ethereum by default",
+            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask</a><img src='images/metamask-logo.svg' class='inline-icon'> on your phone.",
+            "Choose Create a new walle.",
+            "Follow on-screen instructions, <i>write down seed phrase on paper.</i>",
+            "Download <a href='https://metamask.io/download/' target='_blank'>MetaMask extension</a> in Chrome browser.",
+            "Choose restore wallet from seed phrase (the one you wrote down).",
+            'To get your public address, touch/click the "0x000...0000" in MetaMask.',
+            "Go to <a href='https://etherscan.io/' target='_blank'>etherscan.io</a> and paste in address to see it on a block explorer.",
+            "MetaMask is connected to Ethereum by default.",
             "Next let's get some ApeCoin on <a href='#get-coinbase' subject='get-coinbase'>Coinbase</a><img src='images/coinbase-logo.png' class='inline-icon'>\
             or <a href='#get-binance' subject='get-binance'>Binance</a><img src='images/binance-logo.svg' class='inline-icon'>"
         ],
@@ -147,7 +147,7 @@ let data = {
             "<a href='https://forum.apecoin.com/invites/fEdGfZyTPi' target='_blank'>forum</a><img src='images/apecoin-logo.svg' class='inline-icon'> and " +
             "<a href='https://discord.gg/apecoindao' target='_blank'>discord</a><img src='images/discord-icon.svg' class='inline-icon'>",
             "Join the ApeCoin DAO <a href='https://snapshot.org/#/apecoin.eth' target='_blank'>snapshot</a><img src='images/fdt.png' class='inline-icon'></img> space where you can vote on community proposals",
-            "At this point you're a complete community member ready to shape the culture. When you're ready to explore some awesome apps built by the ApeCoin community, click <a href='#first-thing' subject='first-thing'>here</a><img src='images/fast-forward.png' class='inline-icon'>"
+            "At this point you're a complete community member ready to shape the culture. When you're ready to explore some awesome apps built by the ApeCoin community, click <a href='#earn-with-thankape' subject='earn-with-thankape'>here</a><img src='images/fast-forward.png' class='inline-icon'>"
 
         ],
         list: []
@@ -157,7 +157,7 @@ let data = {
         icon: 'images/gas-logo.png',
         descriptions: [
             "Gas prices to transact on Ethereum can sometimes be too high to try things",
-            "Networks like <a href='#try-optimism' subject='try-optimism'>Optimism<a><img src='images/optimism-logo.png' class='inline-icon'> help scale Ethereum to more people with cheaper costs",
+            "There are other metworks that help scale Ethereum",
             "Ethereum mainnet is becoming the home for large financial transactions"
         ],
         steps: [
@@ -219,6 +219,35 @@ let data = {
             "Visit the <a href='https://boringsecurity.com/' target='_blank'>Boring Security</a><img src='images/boring-security-logo.png' class='inline-icon'> website",
             "Visit the <a href='https://thankape.com/referred/fa1f9a4c' target='_blank'>Thank Ape</a><img src='images/thrivecoin-logo.jpeg' class='inline-icon'> website",
             "Select the latest season of Boring Security and begin earning points for the raffle",
+
+        ],
+        list: []
+    },
+    'explore-apecoin-marketplace': {
+        title: 'ApeCoin Marketplace',
+        icon: 'images/bayc.png',
+        descriptions: [
+            "Buy and sell Yuga NFTs and support the DAO.",
+            "The custom marketplace includes unique features built specifically for the BAYC and Otherside communities, including ApeCoin staking and NFT metadata integrations",
+
+        ],
+        steps: [
+            "Visit the <a href='https://www.apecoinmarketplace.com/' target='_blank'>ApeCoin Marketplace</a><img src='images/bayc.png' class='inline-icon'> website",
+            "Connect your wallet and begin shopping",
+
+        ],
+        list: []
+    },
+    'explore-ape-telent': {
+        title: 'Ape Talent',
+        icon: 'images/apetalent.jpeg',
+        descriptions: [
+            "Find and connect with the best talent within the Ape community.",
+            "Must hold any NFT from BAYC ecosystem or a minimum amount of 500 ApeCoin to access."
+
+        ],
+        steps: [
+            "Visit the <a href='https://apetalent.xyz/' target='_blank'>ApeTalent</a><img src='images/apetalent.jpeg' class='inline-icon'> website to begin exploring",
 
         ],
         list: []
