@@ -189,33 +189,41 @@ let data = {
         ],
         list: []
     },
-    'try-thankape': {
+    'earn-with-thankape': {
         title: 'ThankApe',
         icon: 'images/thrivecoin-logo.jpeg',
         descriptions: [
-            "This and that",
-            "This and that",
-            "This and that"
+            "Earn ApeCoin (APE) for your contributions to the DAO",
+            "Build earnings over the course of the season",
+            "Donate or claim earnings when the season ends"
 
         ],
         steps: [
-            "This and that",
-            "This and that"
+            "Go to the <a href='https://thankape.com/referred/fa1f9a4c' target='_blank'>Thank Ape</a><img src='images/thrivecoin-logo.jpeg' class='inline-icon'> website and select the latest season",
+            "Connect the wallet you used to sign up to ApeCoin DAO",
+            "Click on your profile and also connect the socials linked to ApeCoin including your Twitter",
+            "Start contributing and earn ApeCoin",
         ],
-        lists: []
+        list: []
+    },
+    'safety-with-boring-security': {
+        title: 'Boring Security',
+        icon: 'images/boring-security-logo.png',
+        descriptions: [
+            "Boring Security aims to educate people on what they can do to remain safe in this ever-evolving space",
+            "They provide free classes, resources, tools, and other informational material to the community so that they can prevent themselves from becoming the next victim",
+            "Boring Security also has quests on ThriveCoin where you can stand a chance to earn rewards by completing tasks"
+
+        ],
+        steps: [
+            "Visit the <a href='https://boringsecurity.com/' target='_blank'>Boring Security</a><img src='images/boring-security-logo.png' class='inline-icon'> website",
+            "Visit the <a href='https://thankape.com/referred/fa1f9a4c' target='_blank'>Thank Ape</a><img src='images/thrivecoin-logo.jpeg' class='inline-icon'> website",
+            "Select the latest season of Boring Security and begin earning points for the raffle",
+
+        ],
+        list: []
     }
 }
 
 // ideas:
-// buy nfts on opensea
-// bet on exotic markets
-// lend/borrow nfts to earn yield
-// lens protocol
-// barnbridge
-// livepeer staking
-// the graph (tenderize?)
-// indexcoop MNYe
-// defillama.com
-// bullish case on tokens that actually do something
-// revoke.cash revoke permissions, etherscan method
-// compound on ethereum
+// How to Buy Bored Apes
